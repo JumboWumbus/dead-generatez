@@ -4,7 +4,7 @@ import Image from "next/image";
 import DeadgeneratezTypeLogo from "../components/svg/deadgeneratezTypeLogo";
 import EyeFollow from "../components/eyeFollow";
 import NavBar from "../components/navBar";
-import TeamSection from "../components/teamSection";
+import TeamSection from "../components/TeamSection/teamSection";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
@@ -13,10 +13,9 @@ const Home: NextPage = () => {
             <div className={styles.pageContainer}>
                 <Head>
                     <meta charSet="utf-8" />
-                    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="theme-color" content="#000000" />
-        
+
                     <title>DeadGeneratez</title>
                     <meta name="description" content="6 Feet underground" />
                     <link
@@ -40,14 +39,15 @@ const Home: NextPage = () => {
 
                 <NavBar />
 
-                {/*<div className={styles.heroContainer}>
-        
-        <div className={styles.heroTopCover}>
-          <h1>DeadGuy</h1>
-        </div>
-          <EyeFollow />
-        <div className={styles.heroBottomCover}></div>
-  </div>*/}
+                {/*
+                  <div className={styles.heroContainer}>
+                    <div className={styles.heroTopCover}>
+                      <h1>DeadGuy</h1>
+                    </div>
+                      <EyeFollow />
+                    <div className={styles.heroBottomCover}></div>
+                  </div>
+                */}
 
                 <main className={styles.mainContainer}>
                     <DeadgeneratezTypeLogo fill="#ffffff" className={styles.typeLogoHero} />
