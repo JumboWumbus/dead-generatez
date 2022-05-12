@@ -4,6 +4,7 @@ const Logo = (props:any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 261.51 197.12"
+    alt="skull-logo"
     {...props}
   >
     <path

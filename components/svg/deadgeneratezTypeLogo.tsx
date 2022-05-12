@@ -3,6 +3,7 @@ import * as React from "react";
 const DeadgeneratezTypeLogo = (props:any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    alt="type-logo"
     width={974.04}
     height={92.09}
     viewBox="0 0 974.04 92.09"

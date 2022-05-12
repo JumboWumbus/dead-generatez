@@ -3,6 +3,7 @@ import * as React from "react";
 const LinkedInLogo = (props:any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    alt="linkedin"
     width={24}
     height={24}
     style={{
