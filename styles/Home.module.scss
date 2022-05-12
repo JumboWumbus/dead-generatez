@@ -1,0 +1,65 @@
+.pageContainer{
+  width: 100%;
+  
+}
+
+.mainContainer {
+  
+
+  
+
+  background-color: #000000;
+}
+
+
+
+.typeLogoHero{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  
+}
+
+.heroContainer{
+  
+}
+
+.heroTopCover{
+  height: 100px;
+  background-color: #000000;
+}
+
+.heroBottomCover{
+  height: 100px;
+  margin-top: -50%;
+  background-color: #000000;
+}
+
+.boneHeader{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.boneLeft{
+  width: 30%;
+}
+
+.boneRight{
+  width: 20%;
+}
+.heading{
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  padding-inline: 2rem;
+}
+
+
