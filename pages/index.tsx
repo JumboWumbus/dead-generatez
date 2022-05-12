@@ -1,11 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import BoneLeft from '../components/svg/boneLeft'
-import BoneRight from '../components/boneRight'
 import DeadgeneratezTypeLogo from '../components/deadgeneratezTypeLogo'
 import EyeFollow from '../components/eyeFollow'
-import Logo from '../components/Logo'
+
 import NavBar from '../components/navBar'
 import TeamSection from '../components/teamSection'
 import styles from '../styles/Home.module.scss'
