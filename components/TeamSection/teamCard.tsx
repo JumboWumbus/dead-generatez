@@ -25,12 +25,12 @@ export const TeamCard = ({ children, name, title, twitter, linkedin }: Props) =>
 
                 <div className={styles.socials}>
                     <div className={styles.theSocial}>
-                        <TwitterIcon fill="#000000" />
+                        <TwitterIcon fill="#EAEAEA" />
                         <p className={styles.socialText}>{twitter}</p>
                     </div>
 
                     <div className={styles.theSocial}>
-                        <LinkedInLogo fill="#000000" />
+                        <LinkedInLogo fill="#EAEAEA" />
                         <p className={styles.socialText}>{linkedin}</p>
                     </div>
                 </div>
