@@ -9,7 +9,7 @@ export default function TeamSection() {
                 <TeamCard
                     name="Massimo Maggiolo"
                     title="Founder/Lead Artist"
-                    twitter="aesthetica_s"
+                    twitter="@aesthetica_s"
                     linkedin="massimo-maggiolo-241491237/"
                 >
                     Aesthetica is very cool and also very Italian. But what makes him so cool? He is
@@ -20,7 +20,7 @@ export default function TeamSection() {
                 <TeamCard
                     name="Victor Karlsson"
                     title="Founder/Lead Artist"
-                    twitter="_Thicctor"
+                    twitter="@_Thicctor"
                     linkedin="viktor-karlsson-299631142/"
                 >
                     Thicctor is our modern-day Swedish viking. Now, what does that mean? Well, he
@@ -31,7 +31,7 @@ export default function TeamSection() {
                 <TeamCard
                     name="Brad Weidner"
                     title="Community manager"
-                    twitter="SocietyGremlin"
+                    twitter="@SocietyGremlin"
                     linkedin="brad-weidner-23a75190/"
                 >
                     Brad is our very own business guru from Texas. Now, how many bazookas does he
@@ -43,7 +43,7 @@ export default function TeamSection() {
                 <TeamCard
                     name="Tamerlan"
                     title="Marketing Expert"
-                    twitter="tamerlan"
+                    twitter="@tamerlan"
                     linkedin="placeholder"
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id perspiciatis
