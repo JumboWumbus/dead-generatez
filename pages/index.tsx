@@ -4,7 +4,7 @@ import Image from "next/image";
 import DeadgeneratezTypeLogo from "../components/svg/deadgeneratezTypeLogo";
 import EyeFollow from "../components/eyeFollow";
 import NavBar from "../components/navBar";
-import TeamSection from "../components/TeamSection/teamSection";
+import TeamSection from "../components/TeamSection";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {

@@ -13,11 +13,15 @@ type Props = {
 export const TeamCard = ({ children, name, title, twitter, linkedin }: Props) => {
     return (
         <div className={styles.memberContainer}>
-            <img alt="placeholder" className={styles.memberImage} src="./images/place.jpeg" />
+            <div className={styles.memberImageContainer}>
+                <img alt="placeholder" className={styles.memberImage} src="./images/place.jpeg" />
+            </div>
             <div className={styles.memberInfoContainer}>
-                <h1 className={styles.memberName}>{name}</h1>
-                <h2 className={styles.memberTitle}>{title}</h2>
-                <p className={styles.memberParagraph}>{children}</p>
+                <div className={styles.memberTextContainer}>
+                    <h1 className={styles.memberName}>{name}</h1>
+                    <h2 className={styles.memberTitle}>{title}</h2>
+                    <div className={styles.memberParagraph}>{children}</div>
+                </div>
 
                 <div className={styles.socials}>
                     <div className={styles.theSocial}>

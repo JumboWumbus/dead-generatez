@@ -1,60 +1,99 @@
-.teamSection{
-    background-color: #ffffff;
-}
-
-.memberContainer{
+.teamSection {
+    background-color: transparent;
     display: flex;
-    max-width: 800px;
-    flex-direction: row;
-    margin: auto;
+    flex-direction: column;
+    padding: 1rem 4rem;
     gap: 2rem;
-    
 }
 
-.memberImage{
+.teamTitle {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: #eaeaea;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.teamCards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memberImageContainer {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+
+.memberContainer {
+    display: flex;
+    color: #eaeaea;
+    max-width: 700px;
+    flex-direction: row;
+    gap: 0.33rem;
+    flex: 0 0 47%;
+}
+
+.memberInfoContainer {
+    width: 100%;
+    flex: 1;
+}
+
+.memberImage {
     border-radius: 25px;
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
-.memberName{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
-  margin-block: 0;
+.memberName {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-block: 0;
 }
 
-.memberTitle{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-  margin-top:0.2rem;
-  margin-bottom: 0;
+.memberTitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #EAEAEAAA;
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
 }
 
-.memberParagraph{
-font-family: "Montserrat", sans-serif;
-  font-weight: 0;
-  font-size: 0.9rem;
-  line-height: 1.3rem;
+.memberTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
 }
 
-.socials{
+.memberParagraph {
+    font-family: Montserrat, sans-serif;
+    font-weight: 0;
+    font-size: 0.9rem;
+    width: 100%;
+    line-height: 1.3rem;
+}
+
+.socials {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
 
-.theSocial{
+.theSocial {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    gap:0.5rem;
+    gap: 0.5rem;
 }
 
-.socialText{
+.socialText {
     font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 0.9rem;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
