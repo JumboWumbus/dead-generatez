@@ -2,6 +2,7 @@ import TwitterIcon from "../svg/twitterIcon";
 import LinkedInLogo from "../svg/linkedInIcon";
 import styles from "../../styles/teamSection.module.scss";
 import TempPfp from "../svg/tempPfp";
+
 type Props = {
     children?: React.ReactNode;
     name?: string;
@@ -19,7 +20,7 @@ export const TeamCard = ({ children, name, title, twitter, linkedin }: Props) =>
             </div>
             <div className={styles.memberInfoContainer}>
                 <div className={styles.memberTextContainer}>
-                    <h1 className={styles.memberName}>{name}</h1>
+                    <div className={styles.memberName}>{name}</div>
                     <h2 className={styles.memberTitle}>{title}</h2>
                     <div className={styles.memberParagraph}>{children}</div>
                 </div>

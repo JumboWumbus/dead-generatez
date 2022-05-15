@@ -8,18 +8,18 @@ export default function TeamSection() {
             <div className={styles.teamCards}>
                 <TeamCard
                     name="Massimo Maggiolo"
-                    title="Founder/Lead Artist"
+                    title="Founder / Lead Artist"
                     twitter="@aesthetica_s"
                     linkedin="massimo-maggiolo-241491237/"
                 >
                     Aesthetica is very cool and also very Italian. But what makes him so cool? He is
-                    an incredible artist with amazing 3D skills. Some say he’s more familiar with
+                    an incredible artist with amazing 3D skills. Some say he&apos;s more familiar with
                     Blender than making delicious pasta or pizza.
                 </TeamCard>
 
                 <TeamCard
                     name="Victor Karlsson"
-                    title="Founder/Lead Artist"
+                    title="Graphic Designer / CM"
                     twitter="@_Thicctor"
                     linkedin="viktor-karlsson-299631142/"
                 >
@@ -30,7 +30,7 @@ export default function TeamSection() {
 
                 <TeamCard
                     name="Brad Weidner"
-                    title="Community manager"
+                    title="Business Guru / CM"
                     twitter="@SocietyGremlin"
                     linkedin="brad-weidner-23a75190/"
                 >
