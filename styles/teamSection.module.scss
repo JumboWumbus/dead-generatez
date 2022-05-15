@@ -2,8 +2,12 @@
     background-color: transparent;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     padding: 1rem 4rem;
     gap: 2rem;
+    max-width: 1400px;
 }
 
 .teamTitle {
@@ -19,7 +23,7 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 2rem 0rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -31,7 +35,6 @@
 .memberContainer {
     display: flex;
     color: #eaeaea;
-    max-width: 700px;
     flex-direction: row;
     gap: 0.33rem;
     flex: 0 0 47%;
