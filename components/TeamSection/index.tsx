@@ -25,7 +25,7 @@ export default function TeamSection() {
                 >
                     Thicctor is our modern-day Swedish viking. Now, what does that mean? Well, he
                     can navigate through IKEA blindfolded whilst designing brands for cool projects.
-                    That's a useful skill to have... we hope.
+                    That&apos;s a useful skill to have... we hope.
                 </TeamCard>
 
                 <TeamCard
