@@ -38,8 +38,6 @@ export const TeamCard = ({ children, name, title, twitter, linkedin, linkedinUrl
                     </div>
                 </div>
             </div>
-            <div></div>
-            <div></div>
         </div>
     );
 };

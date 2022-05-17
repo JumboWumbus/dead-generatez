@@ -16,11 +16,9 @@ export default function EyeFollow() {
     return (
         <>
             <div className={styles.skullContainer}>
-                <Parallax translateY={[0, 0]} className={styles.skullFollow}>
-                    <div className={styles.skull}>
-                        <Lottie options={skullOptions} />
-                    </div>
-                </Parallax>
+                <div className={styles.skull}>
+                    <Lottie options={skullOptions} />
+                </div>
             </div>
         </>
     );
