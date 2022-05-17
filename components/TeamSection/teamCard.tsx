@@ -28,12 +28,12 @@ export const TeamCard = ({ children, name, title, twitter, linkedin, linkedinUrl
 
                 <div className={styles.socials}>
                     <div className={styles.theSocial}>
-                        <TwitterIcon fill="#EAEAEA" />
+                        <TwitterIcon bodyColor={"#ffffff"} eyeColor={"#000000"} width={"20px"}/>
                         <p className={styles.socialText}>{twitter}</p>
                     </div>
 
                     <div className={styles.theSocial}>
-                        <LinkedInLogo fill="#EAEAEA" />
+                        <LinkedInLogo rectColor={"#ffffff"} fontColor={"#000000"} width={"18px"}/>
                         <a href={linkedinUrl} className={styles.socialText}>{linkedin}</a>
                     </div>
                 </div>

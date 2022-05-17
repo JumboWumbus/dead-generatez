@@ -47,7 +47,12 @@ $xxl: 75rem; //1200px
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
-  
+
+  margin-bottom: 1rem;
+
+  @media screen and(min-width:$sm) {
+    margin-bottom: 4rem;
+}
 }
 
 .heroContainer{
@@ -91,3 +96,8 @@ $xxl: 75rem; //1200px
 }
 
 
+.footer{
+  width: 100%;
+  padding-block: 2rem;
+  background-color: #000000;
+}

@@ -1,5 +1,5 @@
 import Lottie from "react-lottie";
-import { Parallax } from "react-scroll-parallax";
+
 import styles from "../styles/skullFollow.module.scss";
 import skullAnim from "../animations/SkullAnimWhite.json";
 
@@ -17,7 +17,7 @@ export default function EyeFollow() {
         <>
             <div className={styles.skullContainer}>
                 <div className={styles.skull}>
-                    <Lottie options={skullOptions} />
+                    <Lottie options={skullOptions} isClickToPauseDisabled={true} />
                 </div>
             </div>
         </>

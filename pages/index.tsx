@@ -6,10 +6,11 @@ import EyeFollow from "../components/eyeFollow";
 import NavBar from "../components/navBar";
 import TeamSection from "../components/TeamSection";
 import styles from "../styles/Home.module.scss";
+import Footer from "../components/footer";
 
 const Home: NextPage = () => {
     return (
-        <html lang="en">
+        
             <div className={styles.pageContainer}>
                 <Head>
                     <meta charSet="utf-8" />
@@ -59,11 +60,17 @@ const Home: NextPage = () => {
                     </div>
 
                     <TeamSection />
+
+
+                <footer className={styles.footer}>
+                    <Footer/>
+                </footer>
+
                 </main>
 
-                <footer className={styles.footer}></footer>
+                
             </div>
-        </html>
+        
     );
 };
 

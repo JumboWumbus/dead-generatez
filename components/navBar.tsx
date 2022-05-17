@@ -3,10 +3,11 @@ import styles from "../styles/navbar.module.scss";
 import DiscordLogo from "./svg/discordIcon";
 import HamburgerIconClose from "./svg/HamburgerIcon_Close";
 import HamburgerIconOpen from "./svg/HamburgerIcon_Open";
-import InstagramIcon from "./svg/instaIcon";
+
 import Logo from "./svg/Logo";
 
 import TwitterIcon from "./svg/twitterIcon";
+import MagicEdenIcon from "./svg/magicEdenIcon";
 
 export default function NavBar() {
   return (
@@ -87,14 +88,14 @@ export default function NavBar() {
 
         <div className={styles.socialIcons}>
           <div className={styles.theIcon}>
-            <DiscordLogo fill="#ffffff" width={"28px"} height={"28px"} />
+            <DiscordLogo skullColor={"#ffffff"} eyeColor={"#000000"} width={"28px"} height={"28px"} />
           </div>
 
           <div className={styles.theIcon}>
-            <TwitterIcon fill="#ffffff" width={"28px"} height={"28px"} />
+            <TwitterIcon bodyColor={"#ffffff"} eyeColor={"#000000"} fill="#ffffff" width={"28px"} height={"28px"} />
           </div>
           <div className={styles.theIcon}>
-            <InstagramIcon fill="#ffffff" width={"28px"} height={"28px"} />
+            <MagicEdenIcon rectColor={"#ffffff"} fontColor={"#000000"}  width={"28px"} height={"28px"} />
           </div>
         </div>
 </div>
