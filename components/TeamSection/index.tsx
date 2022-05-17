@@ -10,18 +10,20 @@ export default function TeamSection() {
                     name="Massimo Maggiolo"
                     title="Founder / Lead Artist"
                     twitter="@aesthetica_s"
-                    linkedin="massimo-maggiolo-241491237/"
+                    linkedin="Massimo"
+                    linkedinUrl="https://linkedin.com/massimo-maggiolo-241491237/"
                 >
                     Aesthetica is very cool and also very Italian. But what makes him so cool? He is
-                    an incredible artist with amazing 3D skills. Some say he&apos;s more familiar with
-                    Blender than making delicious pasta or pizza.
+                    an incredible artist with amazing 3D skills. Some say he&apos;s more familiar
+                    with Blender than making delicious pasta or pizza.
                 </TeamCard>
 
                 <TeamCard
                     name="Victor Karlsson"
                     title="Graphic Designer / CM"
                     twitter="@_Thicctor"
-                    linkedin="viktor-karlsson-299631142/"
+                    linkedin="Viktor"
+                    linkedinUrl="https://linkedin.com/viktor-karlsson-299631142/"
                 >
                     Thicctor is our modern-day Swedish viking. Now, what does that mean? Well, he
                     can navigate through IKEA blindfolded whilst designing brands for cool projects.
@@ -32,7 +34,8 @@ export default function TeamSection() {
                     name="Brad Weidner"
                     title="Business Guru / CM"
                     twitter="@SocietyGremlin"
-                    linkedin="brad-weidner-23a75190/"
+                    linkedin="Brad"
+                    linkedinUrl="https://linkedin.com/brad-weidner-23a75190/"
                 >
                     Brad is our very own business guru from Texas. Now, how many bazookas does he
                     own? Zero! Instead, he is hand-crafting his own weapons arsenal consisting of
@@ -45,6 +48,7 @@ export default function TeamSection() {
                     title="Marketing Expert"
                     twitter="@tamerlan"
                     linkedin="placeholder"
+                    linkedinUrl="https://linkedin.com/"
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id perspiciatis
                     ducimus itaque tenetur laborum quaerat. Debitis impedit blanditiis rerum magnam
