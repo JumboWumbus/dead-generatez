@@ -11,7 +11,7 @@ export default function TeamSection() {
                     title="Founder / Lead Artist"
                     twitter="@aesthetica_s"
                     linkedin="Massimo"
-                    linkedinUrl="https://linkedin.com/massimo-maggiolo-241491237/"
+                    linkedinUrl="https://linkedin.com/in/massimo-maggiolo-241491237/"
                 >
                     Aesthetica is very cool and also very Italian. But what makes him so cool? He is
                     an incredible artist with amazing 3D skills. Some say he&apos;s more familiar
@@ -23,7 +23,7 @@ export default function TeamSection() {
                     title="Graphic Designer / CM"
                     twitter="@_Thicctor"
                     linkedin="Viktor"
-                    linkedinUrl="https://linkedin.com/viktor-karlsson-299631142/"
+                    linkedinUrl="https://linkedin.com/in/viktor-karlsson-299631142/"
                 >
                     Thicctor is our modern-day Swedish viking. Now, what does that mean? Well, he
                     can navigate through IKEA blindfolded whilst designing brands for cool projects.
@@ -35,7 +35,7 @@ export default function TeamSection() {
                     title="Business Guru / CM"
                     twitter="@SocietyGremlin"
                     linkedin="Brad"
-                    linkedinUrl="https://linkedin.com/brad-weidner-23a75190/"
+                    linkedinUrl="https://linkedin.com/in/brad-weidner-23a75190/"
                 >
                     Brad is our very own business guru from Texas. Now, how many bazookas does he
                     own? Zero! Instead, he is hand-crafting his own weapons arsenal consisting of
