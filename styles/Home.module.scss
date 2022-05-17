@@ -1,14 +1,42 @@
+$sm: 24rem; //384px
+$sm2: 29.75rem; //476px
+$sm3: 39.8rem; //636.8px
+$sm4: 42rem; //672px
+
+$md: 46.8rem; //748.8px
+$md2: 48rem; //768px
+
+$lg: 50rem; //800px
+$lg2: 54.5rem; //872px
+
+$xl: 60rem; //960px
+$xl2: 67rem; //1072px
+
+$xxl: 75rem; //1200px
+
+
 .pageContainer{
   width: 100%;
   
 }
 
 .mainContainer {
-  
+  padding-top:8rem;
 
   
 
   background-color: #000000;
+
+  @media screen and(min-width:$sm2) {
+    padding-top:12rem;
+  }
+
+  @media screen and(min-width:$lg) {
+      
+    padding-top:8rem;
+
+}
+
 }
 
 

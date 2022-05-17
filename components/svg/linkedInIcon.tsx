@@ -7,7 +7,7 @@ const LinkedInLogo = (props:any) => (
     width={24}
     height={24}
     style={{
-      
+      width: "24px",
       transform: "",
       msfilter: "",
     }}

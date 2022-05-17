@@ -14,7 +14,7 @@ $xl2: 67rem; //1072px
 
 $xxl: 75rem; //1200px
 
-$color: #000000;
+$color: #d12323;
 
 
 .navLogo{
@@ -22,9 +22,20 @@ $color: #000000;
 }
 .navBar{
     background-color: $color;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .navContainer{
-    display: flex;
+    
+
+    
+
+    
+}
+
+.desktopNavigation{
+  display: flex;
     justify-content: space-between;
     align-items: center;
     padding:1rem 3rem;
@@ -33,9 +44,27 @@ $color: #000000;
     margin: auto;
    
 
-    background-color: #000000;
 
-    
+
+    @media screen and(max-width:$lg) {
+      
+          flex-direction: column;
+      
+    }
+
+  @media screen and(max-width:$sm2) {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+.mobileNavigation{
+  height: 80px;
+  @media screen and(min-width:$sm2) {
+    visibility: hidden;
+    height: 0;
+  }
 }
 
 .navMiddle{
@@ -78,18 +107,15 @@ $color: #000000;
 .navItemWrapper{
     display: flex;
     justify-content: space-evenly;
+
+    @media screen and(max-width:$lg) {
+    
+      width: 500px;
+  }
+  
 }
 
-@media screen and(max-width:$lg) {
-    .navContainer{
-        flex-direction: column;
-    }
 
-    .navItemWrapper{
-        width: 500px;
-    }
-
-}
 
 
 
@@ -210,6 +236,7 @@ $line-height: 1.5;
     margin: 0 auto;
     color: $color-secondary;
     line-height: 1;
+    
     text-decoration: none;
     user-select: none;
     padding: $space calc($space * 2) calc($space + var(--border-size) / 2);
