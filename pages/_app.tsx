@@ -5,13 +5,13 @@ import "../styles/fonts.scss";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
     return (
-        <div>
+        <>
             <AnimatePresence exitBeforeEnter>
                 <motion.div initial="initial" animate="animate" exit="exit" key={router.route}>
                     <Component {...pageProps} key={router.route} />
                 </motion.div>
             </AnimatePresence>
-        </div>
+        </>
     );
 }
 
