@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const DegenVerse = (props:any) => (
+const DeadgenVerse = (props:any) => (
   <svg
     id="a"
     xmlns="http://www.w3.org/2000/svg"
@@ -88,4 +88,4 @@ const DegenVerse = (props:any) => (
   </svg>
 );
 
-export default DegenVerse;
+export default DeadgenVerse;

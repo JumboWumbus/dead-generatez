@@ -74,7 +74,7 @@
 	.contentLeft {
 		position: relative;
 		width: auto;
-		box-shadow: 0 1px 3px rgba(0,0,0,.03);
+		
 		padding: 27px 25px;
 		&:before {
 			position: absolute;
@@ -87,7 +87,7 @@
 	.contentRight {
 		position: relative;
 		width: auto;
-		box-shadow: 0 1px 3px rgba(0,0,0,.03);
+		
 		padding: 27px 25px;
 		&:before {
 			position: absolute;
@@ -101,9 +101,18 @@
 		padding: 0;
 		font-weight: 400;
 		color: #ffffff;
-		font-size: 14px;
-		line-height: 24px;
+		font-size: 16pt;
+		
 		position: relative;
+
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+
+        span.bodyHeading{
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 28pt;
+        }
 		span.articleNumber {
 			position: absolute;
 			font-weight: 300;
