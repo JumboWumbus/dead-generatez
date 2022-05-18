@@ -8,13 +8,13 @@ export default function Roadmap() {
     return (
     <>
     <div>
-    <section className={styles.conferenceTimeline}>
+    <section className={styles.roadmap}>
 
-    <div className={styles.conferenceCenterLine}></div>
-    <div className={styles.conferenceTimelineContent}>
+    <div className={styles.roadmapCenterLine}></div>
+    <div className={styles.roadmapTimeline}>
 
 
-      <div className={styles.timelineArticle}>
+      <div className={styles.timeLineSection}>
         <div className={styles.contentLeftContainer}>
           <div className={styles.contentLeft}>
             <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span className="article-number">01</span></p>
@@ -33,7 +33,7 @@ export default function Roadmap() {
       </div>
 
 
-      <div className={styles.timelineArticle}>
+      <div className={styles.timeLineSection}>
         <div className={styles.contentLeftContainer}>
           <div className={styles.contentLeft}>
             <CommunitySkulls/>
@@ -53,7 +53,7 @@ export default function Roadmap() {
       </div>
 
 
-      <div className={styles.timelineArticle}>
+      <div className={styles.timeLineSection}>
         <div className={styles.contentLeftContainer}>
           <div className={styles.contentLeft}>
             <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span className="article-number">01</span></p>
