@@ -7,6 +7,7 @@ import NavBar from "../components/navBar";
 import TeamSection from "../components/TeamSection";
 import styles from "../styles/Home.module.scss";
 import Footer from "../components/footer";
+import Roadmap from "../components/roadmap";
 
 const Home: NextPage = () => {
     return (
@@ -60,6 +61,8 @@ const Home: NextPage = () => {
                     </div>
 
                     <TeamSection />
+
+                    <Roadmap/>
 
 
                 <footer className={styles.footer}>
