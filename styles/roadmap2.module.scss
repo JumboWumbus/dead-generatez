@@ -1,0 +1,125 @@
+.roadmap {
+    display: flex;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+    color: #eaeaea;
+}
+
+.roadmapColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmapRow {
+    display: flex;
+    height: auto;
+    width: 100%;
+
+    @media (min-width: 0px) and (max-width: 568px) {
+        flex-direction: column;
+    }
+}
+
+.roadmapRowHeading {
+    font-size: 20pt;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-kerning: normal;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: 0px) and (max-width: 568px) {
+
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            width: 8px;
+            height: 2px;
+            background-color: white;
+        }
+    }
+}
+
+.roadmapRowLeftContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    border-right: 2px solid white;
+
+    &::after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 50%;
+        width: 8px;
+        height: 2px;
+        background-color: white;
+    }
+
+    @media (min-width: 0px) and (max-width: 568px) {
+        margin: 0 1rem;
+        border-right: none;
+        flex-direction: column;
+        border-left: 2px solid white;
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            width: 0px;
+            height: 0px;
+            background-color: white;
+        }
+    }
+}
+
+.roadmapRowLeft {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 0 4rem;
+}
+
+.roadmapRowRightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    border-right: 1px solid white;
+    &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 50%;
+        width: 8px;
+        height: 2px;
+        background-color: white;
+    }
+
+    @media (min-width: 0px) and (max-width: 568px) {
+        margin: 0 1rem;
+        border-right: none;
+        border-left: 2px solid white;
+        flex-direction: column;
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            width: 0px;
+            height: 0px;
+            background-color: white;
+        }
+    }
+}
+.roadmapRowRight {
+    padding: 0 4rem;
+}
