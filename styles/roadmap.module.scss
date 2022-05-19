@@ -19,6 +19,14 @@ $xl2: 67rem; //1072px
 $xxl: 75rem; //1200px
 
 
+.roadmapContainer{
+	margin: 0 3rem;
+
+	@media screen and (max-width:$lg) {
+		margin: 0 1rem;
+	}
+}
+
 .roadmap {
 	position: relative;
 	max-width: 920px;
@@ -155,6 +163,22 @@ $xxl: 75rem; //1200px
             line-height: 30pt;
             font-size: 28pt;
            
+			@media screen and(max-width:$xl) {
+			font-size: 22pt;
+			line-height: 20pt;
+			}
+
+			@media screen and (max-width:$lg) {
+				font-size: 28pt;
+			}
+
+			@media screen and (max-width:$sm2) {
+				font-size: 24pt;
+			}
+
+			@media screen and (max-width:$sm) {
+				font-size: 20pt;
+			}
         }
        
 		span.articleNumber {
@@ -226,18 +250,31 @@ $xxl: 75rem; //1200px
 
         flex-direction: column;
 
+		@media screen and(max-width:$lg) {
+			padding: 0 3rem;
+		}
+
+		@media screen and(max-width:550px) {
+			padding: 0 2rem;
+		}
+
+		@media screen and(max-width:$sm2) {
+			padding: 0;
+		}
+
+
         
 		.metaDate {
 			margin-left: 0;
-			left: -8px;
+			left: 0px;
 		}
 		.contentLeftContainer {
 			max-width: 100%;
 			
 			float: none;
-			margin-left: 110px;
+			
 			min-height: 53px;
-			margin-bottom: 20px;
+			margin-bottom: 4rem;
 
             width: -webkit-fill-available;
 		}
@@ -245,11 +282,11 @@ $xxl: 75rem; //1200px
 			max-width: 100%;
 			width: -webkit-fill-available;
 			float: none;
-			margin-left: 110px;
+			margin-bottom: 4rem;
 			min-height: 53px;
 		}
 		.contentLeft {
-			padding: 10px 25px;
+			//padding: 10px 25px;
 			min-height: 65px;
 			&:before {
 				right: auto;

@@ -9,7 +9,7 @@ export default function Roadmap() {
 
     return (
     <>
-    <div>
+    <div className={styles.roadmapContainer}>
     <section className={styles.roadmap}>
 
     <div className={styles.roadmapCenterLine}></div>
