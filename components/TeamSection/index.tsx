@@ -6,12 +6,13 @@ export default function TeamSection() {
         <div className={styles.teamSection}>
             <div className={styles.teamTitle}>Our Team</div>
             <div className={styles.teamCards}>
-                <TeamCard 
+                <TeamCard
                     name="Massimo Maggiolo"
                     title="Founder / Lead Artist"
                     twitter="@aesthetica_s"
                     linkedin="Massimo"
                     linkedinUrl="https://linkedin.com/in/massimo-maggiolo-241491237/"
+                    customID={styles.leftContainer}
                 >
                     Aesthetica is very cool and also very Italian. But what makes him so cool? He is
                     an incredible artist with amazing 3D skills. Some say he&apos;s more familiar
@@ -24,6 +25,7 @@ export default function TeamSection() {
                     twitter="@_Thicctor"
                     linkedin="Viktor"
                     linkedinUrl="https://linkedin.com/in/viktor-karlsson-299631142/"
+                    customID={styles.rightContainer}
                 >
                     Thicctor is our modern-day Swedish viking. Now, what does that mean? Well, he
                     can navigate through IKEA blindfolded whilst designing brands for cool projects.
@@ -36,6 +38,7 @@ export default function TeamSection() {
                     twitter="@SocietyGremlin"
                     linkedin="Brad"
                     linkedinUrl="https://linkedin.com/in/brad-weidner-23a75190/"
+                    customID={styles.leftContainer}
                 >
                     Brad is our very own business guru from Texas. Now, how many bazookas does he
                     own? Zero! Instead, he is hand-crafting his own weapons arsenal consisting of
@@ -49,6 +52,7 @@ export default function TeamSection() {
                     twitter="@tamerlan"
                     linkedin="placeholder"
                     linkedinUrl="https://linkedin.com/"
+                    customID={styles.rightContainer}
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id perspiciatis
                     ducimus itaque tenetur laborum quaerat. Debitis impedit blanditiis rerum magnam

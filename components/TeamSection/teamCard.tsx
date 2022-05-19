@@ -10,11 +10,12 @@ type Props = {
     twitter?: string;
     linkedin?: string;
     linkedinUrl?: string;
+    customID?: string;
 };
 
-export const TeamCard = ({ children, name, title, twitter, linkedin, linkedinUrl }: Props) => {
+export const TeamCard = ({ children, name, title, twitter, linkedin, linkedinUrl, customID }: Props) => {
     return (
-        <div className={styles.memberContainer}>
+        <div className={`${styles.memberContainer} ${customID}`}>
             <div className={styles.memberImageContainer}>
                 <TempPfp className={styles.memberImage}/>
                 
