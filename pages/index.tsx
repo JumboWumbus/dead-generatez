@@ -42,12 +42,14 @@ const Home: NextPage = () => {
                 <EyeFollow />
 
                 <div className={styles.boneHeader}>
-                    <h1 className={styles.heading}>Boney Heading</h1>
+                    <h1 className={styles.heading}>The Degen Journey</h1>
                 </div>
+
+                <Roadmap />
 
                 <TeamSection />
 
-                <Roadmap />
+                
 
                 <footer className={styles.footer}>
                     <Footer />

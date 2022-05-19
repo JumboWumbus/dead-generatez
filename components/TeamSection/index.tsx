@@ -6,7 +6,7 @@ export default function TeamSection() {
         <div className={styles.teamSection}>
             <div className={styles.teamTitle}>Our Team</div>
             <div className={styles.teamCards}>
-                <TeamCard
+                <TeamCard 
                     name="Massimo Maggiolo"
                     title="Founder / Lead Artist"
                     twitter="@aesthetica_s"
