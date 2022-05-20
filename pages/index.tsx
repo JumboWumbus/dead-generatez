@@ -9,12 +9,14 @@ import styles from "../styles/Home.module.scss";
 import Footer from "../components/footer";
 import Roadmap from "../components/roadmap";
 import RoadmapTape from "../components/svg/roadmapTape";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 const Home: NextPage = () => {
     return (
         <div className={styles.pageContainer}>
             <Head>
                 <meta charSet="utf-8" />
+                <link rel="manifest" href="/manifest.json" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#000000" />
 
@@ -66,5 +68,10 @@ const Home: NextPage = () => {
         </div>
     );
 };
+
+
+serviceWorkerRegistration.register();
+
+
 
 export default Home;
