@@ -26,7 +26,7 @@ export default function Roadmap() {
         </div>
         <div className={styles.contentRightContainer}>
           <div className={styles.contentRight}>
-            <img src={"./images/SquidSneakPeek.png"} className={styles.squidImg}></img>
+            <img alt="squid-sneek-peek" src={"./images/SquidSneakPeek.webp"} className={styles.squidImg}/>
             <p className={styles.tinyText}>{`Wen sneak peak?`}</p>
           </div>
           
