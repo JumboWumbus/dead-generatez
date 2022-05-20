@@ -8,6 +8,7 @@ import TeamSection from "../components/TeamSection";
 import styles from "../styles/Home.module.scss";
 import Footer from "../components/footer";
 import Roadmap from "../components/roadmap";
+import RoadmapTape from "../components/svg/roadmapTape";
 
 const Home: NextPage = () => {
     return (
@@ -46,6 +47,13 @@ const Home: NextPage = () => {
                 </div>
 
                 <Roadmap />
+
+                <div className={styles.tapeContainer}>
+                <div className={styles.tape}>
+                <RoadmapTape/>
+                </div>
+                </div>
+                
 
                 <TeamSection />
 

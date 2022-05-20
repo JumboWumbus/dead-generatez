@@ -97,6 +97,43 @@ $xxl: 75rem; //1200px
   padding-bottom: 3rem;
 }
 
+.tapeContainer{
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 12rem;
+}
+.tape{
+  width: 400%;
+
+  max-width: 2000px;
+
+  @media screen and(min-width:$sm) {
+    width: 350%;
+  }
+
+  @media screen and(min-width:$sm2) {
+    width: 300%;
+  }
+
+  @media screen and(min-width:$sm3) {
+    width: 200%;
+  }
+
+  @media screen and(min-width:$xl) {
+    width: 180%;
+  }
+
+  
+
+  
+  margin: 0;
+  position: relative;
+
+  left: 50%;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
 
 .footer{
   width: 100%;

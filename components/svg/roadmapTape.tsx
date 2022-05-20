@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const RoadMapSoon = (props:any) => (
+const RoadmapTape = (props:any) => (
   <svg
     id="a"
     xmlns="http://www.w3.org/2000/svg"
@@ -36,4 +36,4 @@ const RoadMapSoon = (props:any) => (
   </svg>
 );
 
-export default RoadMapSoon;
+export default RoadmapTape;

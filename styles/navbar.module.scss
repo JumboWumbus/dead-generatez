@@ -14,7 +14,7 @@ $xl2: 67rem; //1072px
 
 $xxl: 75rem; //1200px
 
-$color: #d12323;
+$color: #000000;
 
 .navLogo {
   cursor: pointer;
@@ -43,6 +43,7 @@ $color: #d12323;
     visibility: hidden;
     width: 0;
     height: 0;
+    padding:0;
   }
 
   @media screen and(max-width:$sm2) {
@@ -57,6 +58,7 @@ $color: #d12323;
   @media screen and(min-width:$lg) {
     visibility: hidden;
     height: 0;
+    
   }
 }
 
@@ -123,7 +125,7 @@ $line-height: 1.5;
 
   + label {
     position: fixed;
-    top: calc($space * 1.5);
+    top: calc($space * 0.5);
     right: calc($space * 2);
     cursor: pointer;
     z-index: 2;
