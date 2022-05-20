@@ -9,7 +9,6 @@ import styles from "../styles/Home.module.scss";
 import Footer from "../components/footer";
 import Roadmap from "../components/roadmap";
 import RoadmapTape from "../components/svg/roadmapTape";
-import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 const Home: NextPage = () => {
     return (
@@ -51,15 +50,12 @@ const Home: NextPage = () => {
                 <Roadmap />
 
                 <div className={styles.tapeContainer}>
-                <div className={styles.tape}>
-                <RoadmapTape/>
+                    <div className={styles.tape}>
+                        <RoadmapTape />
+                    </div>
                 </div>
-                </div>
-                
 
                 <TeamSection />
-
-                
 
                 <footer className={styles.footer}>
                     <Footer />
@@ -68,10 +64,5 @@ const Home: NextPage = () => {
         </div>
     );
 };
-
-
-serviceWorkerRegistration.register();
-
-
 
 export default Home;
