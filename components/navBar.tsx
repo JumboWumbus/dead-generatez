@@ -10,98 +10,111 @@ import TwitterIcon from "./svg/twitterIcon";
 import MagicEdenIcon from "./svg/magicEdenIcon";
 
 export default function NavBar() {
-  return (
-    <nav className={styles.navBar}>
-      <div className={styles.navContainer}>
-        
+    return (
+        <nav className={styles.navBar}>
+            <div className={styles.navContainer}>
+                <div className={styles.mobileNavigation}>
+                    <input
+                        aria-labelledby="hamburger"
+                        id="page-nav-toggle"
+                        className={styles.mainNavigationToggle}
+                        type="checkbox"
+                    />
+                    <label id="hamburger" htmlFor="page-nav-toggle">
+                        <svg className={styles.iconMenuToggle} viewBox="0 0 60 30">
+                            <g className={styles.iconGroup}>
+                                <g className={styles.iconMenu}>
+                                    <HamburgerIconOpen fill="#ffffff" />
+                                </g>
+                                <g className={styles.iconClose}>
+                                    <HamburgerIconClose fill="#ffffff" />
+                                </g>
+                            </g>
+                        </svg>
+                    </label>
 
-<div className={styles.mobileNavigation}>
-<input
-          id="page-nav-toggle"
-          className={styles.mainNavigationToggle}
-          type="checkbox"
-        />
-        <label htmlFor="page-nav-toggle">
-          <svg className={styles.iconMenuToggle} viewBox="0 0 60 30">
-            <g className={styles.iconGroup}>
-              <g className={styles.iconMenu}>
-                <HamburgerIconOpen fill="#ffffff" />
-              </g>
-              <g className={styles.iconClose}>
-                <HamburgerIconClose fill="#ffffff" />
-              </g>
-            </g>
-          </svg>
-        </label>
+                    <nav className={styles.mainNavigation}>
+                        <ul>
+                            <li>
+                                <Link href="/">
+                                    <a>Home</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/about">
+                                    <a>About Us</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/team">
+                                    <a>Our Team</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/mint">
+                                    <a>Mint</a>
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
-        <nav className={styles.mainNavigation}>
-          <ul>
-            <li>
-            <Link href="/">
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
-            <Link href="/about">
-                <a>About Us</a>
-              </Link>
-            </li>
-            <li>
-            <Link href="/team">
-                <a>Our Team</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/mint">
-                <a>Mint</a>
-              </Link>
-            </li>
-          </ul>
+                <div className={styles.desktopNavigation}>
+                    <Link href="/" passHref>
+                        <Logo
+                            skull="#ffffff"
+                            eyes="#000000"
+                            width={"75px"}
+                            className={styles.navLogo}
+                        />
+                    </Link>
+                    <div className={styles.navLinks}>
+                        <ul className={styles.navItemWrapper}>
+                            <li>
+                                <Link href="/">HOME</Link>
+                            </li>
+                            <li>
+                                <Link href="/about">ABOUT US</Link>
+                            </li>
+                            <li>
+                                <Link href="/team">OUR TEAM</Link>
+                            </li>
+                            <li>
+                                <Link href="/mint">MINT</Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={styles.socialIcons}>
+                        <div className={styles.theIcon}>
+                            <DiscordLogo
+                                skullColor={"#ffffff"}
+                                eyeColor={"#000000"}
+                                width={"28px"}
+                                height={"28px"}
+                            />
+                        </div>
+
+                        <div className={styles.theIcon}>
+                            <TwitterIcon
+                                bodyColor={"#ffffff"}
+                                eyeColor={"#000000"}
+                                fill="#ffffff"
+                                width={"28px"}
+                                height={"28px"}
+                            />
+                        </div>
+                        <div className={styles.theIcon}>
+                            <MagicEdenIcon
+                                rectColor={"#ffffff"}
+                                fontColor={"#000000"}
+                                width={"28px"}
+                                height={"28px"}
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
-</div>
-
-<div className={styles.desktopNavigation}>
-<Link href="/" passHref>
-          <Logo
-            skull="#ffffff"
-            eyes="#000000"
-            width={"75px"}
-            className={styles.navLogo}
-          />
-        </Link>
-<div className={styles.navLinks}>
-          <ul className={styles.navItemWrapper}>
-            <li>
-              <Link href="/">HOME</Link>
-            </li>
-            <li>
-              <Link href="/about">ABOUT US</Link>
-            </li>
-            <li>
-              <Link href="/team">OUR TEAM</Link>
-            </li>
-            <li>
-              <Link href="/mint">MINT</Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className={styles.socialIcons}>
-          <div className={styles.theIcon}>
-            <DiscordLogo skullColor={"#ffffff"} eyeColor={"#000000"} width={"28px"} height={"28px"} />
-          </div>
-
-          <div className={styles.theIcon}>
-            <TwitterIcon bodyColor={"#ffffff"} eyeColor={"#000000"} fill="#ffffff" width={"28px"} height={"28px"} />
-          </div>
-          <div className={styles.theIcon}>
-            <MagicEdenIcon rectColor={"#ffffff"} fontColor={"#000000"}  width={"28px"} height={"28px"} />
-          </div>
-        </div>
-</div>
-
-       
-      </div>
-    </nav>
-  );
+    );
 }
