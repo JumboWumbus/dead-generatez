@@ -10,7 +10,7 @@ import Logo from "./svg/Logo";
 
 import TwitterIcon from "./svg/twitterIcon";
 import MagicEdenIcon from "./svg/magicEdenIcon";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 
 export default function NavBar() {
@@ -23,9 +23,13 @@ export default function NavBar() {
                 document.querySelector(hash)!.scrollIntoView({ behavior: "smooth" })
               }, 100)
         }
-        
-        
       })
+
+      const [checked, setChecked] = useState(false);
+
+      const handleChange = () => {
+        setChecked(!checked);
+      };
 
     return (
         <nav className={styles.navBar}>
@@ -36,8 +40,11 @@ export default function NavBar() {
                         id="page-nav-toggle"
                         className={styles.mainNavigationToggle}
                         type="checkbox"
+
+                        checked={checked}
+                        onChange={handleChange}
                     />
-                    <label id="hamburger" htmlFor="page-nav-toggle">
+                    <label id="hamburger" onClick={handleChange}>
                         <svg className={styles.iconMenuToggle} viewBox="0 0 60 30">
                             <g className={styles.iconGroup}>
                                 <g className={styles.iconMenu}>
@@ -54,22 +61,25 @@ export default function NavBar() {
                         <ul>
                             <li>
                                 <Link href="/">
-                                    <a>Home</a>
+                                    <a onClick={handleChange}>Home</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#about-us">
-                                    <a>About Us</a>
+                                
+                                <Link href="/#about-us" replace>
+                                    <a onClick={handleChange}>About Us</a>
                                 </Link>
+                                
+                                
                             </li>
                             <li>
                                 <Link href="/#the-team">
-                                    <a>Our Team</a>
+                                    <a onClick={handleChange}>Our Team</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/mint">
-                                    <a>Mint</a>
+                                    <a onClick={handleChange}>Mint</a>
                                 </Link>
                             </li>
                         </ul>
