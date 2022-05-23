@@ -8,12 +8,13 @@ type Props = {
     name?: string;
     title?: string;
     twitter?: string;
+    twitterUrl?:string;
     linkedin?: string;
     linkedinUrl?: string;
     customID?: string;
 };
 
-export const TeamCard = ({ children, name, title, twitter, linkedin, linkedinUrl, customID }: Props) => {
+export const TeamCard = ({ children, name, title, twitter, twitterUrl, linkedin, linkedinUrl, customID }: Props) => {
     return (
         <div className={`${styles.memberContainer} ${customID}`}>
             <div className={styles.memberImageContainer}>
@@ -30,12 +31,12 @@ export const TeamCard = ({ children, name, title, twitter, linkedin, linkedinUrl
                 <div className={styles.socials}>
                     <div className={styles.theSocial}>
                         <TwitterIcon bodyColor={"#ffffff"} eyeColor={"#000000"} width={"20px"}/>
-                        <p className={styles.socialText}>{twitter}</p>
+                        <a href={twitterUrl} target="_blank" className={styles.socialText}>{twitter}</a>
                     </div>
 
                     <div className={styles.theSocial}>
                         <LinkedInLogo rectColor={"#ffffff"} fontColor={"#000000"} width={"18px"}/>
-                        <a href={linkedinUrl} className={styles.socialText}>{linkedin}</a>
+                        <a href={linkedinUrl} target="_blank" className={styles.socialText}>{linkedin}</a>
                     </div>
                 </div>
             </div>

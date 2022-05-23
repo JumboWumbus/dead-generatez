@@ -11,14 +11,18 @@ export default function Footer() {
         <div>
                
         <div className={styles.socialIcons}>
-          <div className={styles.theIcon}>
+          <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
+          <a href="https://discord.gg/dgnz" target="_blank" >
             <DiscordLogo skullColor={"#ffffff"} eyeColor={"#000000"} width={"40px"} height={"40px"} />
+          </a>
           </div>
 
-          <div className={styles.theIcon}>
+          <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
+          <a href="https://twitter.com/DeadGeneratez" target="_blank" >
             <TwitterIcon bodyColor={"#ffffff"} eyeColor={"#000000"} width={"40px"} height={"40px"} />
+          </a>
           </div>
-          <div className={styles.theIcon}>
+          <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
             <MagicEdenIcon rectColor={"#ffffff"} fontColor={"#000000"} width={"40px"} height={"40px"} />
           </div>
         </div>

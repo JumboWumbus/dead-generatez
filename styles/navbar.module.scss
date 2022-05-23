@@ -27,6 +27,25 @@ $color: #000000;
   z-index: 200;
 }
 .navContainer {
+  
+}
+
+.iconHoverEffect{
+  
+  transition: all .2s ease-in-out;
+  &:hover{
+    transform: scale(1.2);
+    
+
+  }
+}
+
+.linkHoverEffect{
+  transition: all .2s ease-in-out;
+  &:hover{
+    transform: scale(1.2) translate(0, -5px);
+    
+  }
 }
 
 .desktopNavigation {

@@ -70,32 +70,35 @@ export default function NavBar() {
                     </Link>
                     <div className={styles.navLinks}>
                         <ul className={styles.navItemWrapper}>
-                            <li>
+                            <li className={styles.linkHoverEffect}>
                                 <Link href="/">HOME</Link>
                             </li>
-                            <li>
+                            <li className={styles.linkHoverEffect}>
                                 <Link href="/about">ABOUT US</Link>
                             </li>
-                            <li>
+                            <li className={styles.linkHoverEffect}>
                                 <Link href="/team">OUR TEAM</Link>
                             </li>
-                            <li>
+                            <li className={styles.linkHoverEffect}>
                                 <Link href="/mint">MINT</Link>
                             </li>
                         </ul>
                     </div>
 
                     <div className={styles.socialIcons}>
-                        <div className={styles.theIcon}>
+                        <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
+                            <a href="https://discord.gg/dgnz" target="_blank" >
                             <DiscordLogo
                                 skullColor={"#ffffff"}
                                 eyeColor={"#000000"}
                                 width={"28px"}
                                 height={"28px"}
                             />
+                            </a>
                         </div>
 
-                        <div className={styles.theIcon}>
+                        <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
+                        <a href="https://twitter.com/DeadGeneratez" target="_blank" >
                             <TwitterIcon
                                 bodyColor={"#ffffff"}
                                 eyeColor={"#000000"}
@@ -103,8 +106,9 @@ export default function NavBar() {
                                 width={"28px"}
                                 height={"28px"}
                             />
+                        </a>
                         </div>
-                        <div className={styles.theIcon}>
+                        <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
                             <MagicEdenIcon
                                 rectColor={"#ffffff"}
                                 fontColor={"#000000"}

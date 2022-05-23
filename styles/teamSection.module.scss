@@ -24,7 +24,7 @@ $xxl: 75rem; //1200px
     margin: 0 auto;
     padding: 0 4rem;
     gap: 2rem;
-    max-width: 1400px;
+    max-width: 1500px;
 
     padding-bottom: 8rem;
 
@@ -32,16 +32,16 @@ $xxl: 75rem; //1200px
 }
 
 .leftContainer{
-    padding-right: 3rem;
+    padding-right: 2rem;
     padding-bottom: 2rem;
     @media screen and(max-width:$xxl) {
         padding-right: 0;
-        
+    
     }
 }
 
 .rightContainer{
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-bottom: 2rem;
 
     @media screen and(max-width:$xxl) {
@@ -55,7 +55,7 @@ $xxl: 75rem; //1200px
     font-weight: 600;
     color: #eaeaea;
     text-align: center;
-    font-size: 28px;
+    font-size: 28pt;
 }
 
 .teamCards {
@@ -84,6 +84,7 @@ $xxl: 75rem; //1200px
         flex-direction: column;
         max-width: 600px;
         text-align: center;
+        
     }
     
 }
@@ -91,6 +92,9 @@ $xxl: 75rem; //1200px
 .memberInfoContainer {
     width: 100%;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .memberImage {
@@ -103,14 +107,15 @@ $xxl: 75rem; //1200px
 .memberName {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    font-size: 28px;
+    font-size: 22pt;
+    line-height: 22pt;
 }
 
 .memberTitle {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     color: #EAEAEA;
-    font-size: 18px;
+    font-size: 16pt;
     margin-top: 0.2rem;
     margin-bottom: 0.3rem;
 }
@@ -119,13 +124,15 @@ $xxl: 75rem; //1200px
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
+  
+  padding-bottom: 1rem;
 }
 
 .memberParagraph {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-kerning: none;
-    font-size: 12px;
+    font-size: 12pt;
     width: 100%;
 }
 
