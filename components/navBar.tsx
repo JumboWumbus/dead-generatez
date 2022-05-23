@@ -16,14 +16,15 @@ import { useEffect } from "react";
 export default function NavBar() {
 
     useEffect(() => {
-        const hash = window.location.hash
-        if (hash) {
-          setTimeout(()=> {
-            document
-              .querySelector(hash)
-              .scrollIntoView({ behavior: "smooth" })
-          }, 100)
+        const hash = window.location.hash;
+        
+        if(hash){
+            setTimeout(()=> {
+                document.querySelector(hash)!.scrollIntoView({ behavior: "smooth" })
+              }, 100)
         }
+        
+        
       })
 
     return (
@@ -103,7 +104,7 @@ export default function NavBar() {
 
                     <div className={styles.socialIcons}>
                         <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
-                            <a href="https://discord.gg/dgnz" target="_blank" rel="noopener noreferrer">
+                            <a href="" target="_blank" rel="noopener noreferrer">
                             <DiscordLogo
                                 skullColor={"#ffffff"}
                                 eyeColor={"#000000"}
