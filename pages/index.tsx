@@ -43,8 +43,8 @@ const Home: NextPage = () => {
 
                 <EyeFollow />
 
-                <div className={styles.boneHeader}>
-                    <h1 className={styles.heading}>The Degen Journey</h1>
+                <div className={styles.boneHeader} >
+                    <h1 className={styles.heading} id="about-us">The Degen Journey</h1>
                 </div>
 
                 <Roadmap />

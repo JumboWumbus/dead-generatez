@@ -41,12 +41,12 @@ export default function NavBar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about">
+                                <Link href="#about-us">
                                     <a>About Us</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/team">
+                                <Link href="#the-team">
                                     <a>Our Team</a>
                                 </Link>
                             </li>
@@ -74,10 +74,10 @@ export default function NavBar() {
                                 <Link href="/">HOME</Link>
                             </li>
                             <li className={styles.linkHoverEffect}>
-                                <Link href="/about">ABOUT US</Link>
+                                <Link href="#about-us">ABOUT US</Link>
                             </li>
                             <li className={styles.linkHoverEffect}>
-                                <Link href="/team">OUR TEAM</Link>
+                                <Link href="#the-team">OUR TEAM</Link>
                             </li>
                             <li className={styles.linkHoverEffect}>
                                 <Link href="/mint">MINT</Link>

@@ -4,7 +4,7 @@ import styles from "../../styles/teamSection.module.scss";
 export default function TeamSection() {
     return (
         <div className={styles.teamSection}>
-            <div className={styles.teamTitle}>Our Team</div>
+            <div className={styles.teamTitle} id="the-team">Our Team</div>
             <div className={styles.teamCards}>
                 <TeamCard
                     name="Massimo Maggiolo"
