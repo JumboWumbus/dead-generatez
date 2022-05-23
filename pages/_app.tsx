@@ -2,8 +2,15 @@ import { AnimatePresence, motion } from "framer-motion";
 import { AppProps } from "next/app";
 import "../styles/globals.scss";
 import "../styles/fonts.scss";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
-function MyApp({ Component, pageProps, router }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
+    const router = useRouter();
+
+    
+
+    
     return (
         <>
             <AnimatePresence exitBeforeEnter>

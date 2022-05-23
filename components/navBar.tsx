@@ -4,12 +4,28 @@ import DiscordLogo from "./svg/discordIcon";
 import HamburgerIconClose from "./svg/HamburgerIcon_Close";
 import HamburgerIconOpen from "./svg/HamburgerIcon_Open";
 
+
+
 import Logo from "./svg/Logo";
 
 import TwitterIcon from "./svg/twitterIcon";
 import MagicEdenIcon from "./svg/magicEdenIcon";
+import { useEffect } from "react";
+
 
 export default function NavBar() {
+
+    useEffect(() => {
+        const hash = window.location.hash
+        if (hash) {
+          setTimeout(()=> {
+            document
+              .querySelector(hash)
+              .scrollIntoView({ behavior: "smooth" })
+          }, 100)
+        }
+      })
+
     return (
         <nav className={styles.navBar}>
             <div className={styles.navContainer}>
@@ -41,12 +57,12 @@ export default function NavBar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#about-us">
+                                <Link href="/#about-us">
                                     <a>About Us</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#the-team">
+                                <Link href="/#the-team">
                                     <a>Our Team</a>
                                 </Link>
                             </li>
@@ -74,10 +90,10 @@ export default function NavBar() {
                                 <Link href="/">HOME</Link>
                             </li>
                             <li className={styles.linkHoverEffect}>
-                                <Link href="#about-us">ABOUT US</Link>
+                                <Link href="/#about-us">ABOUT US</Link>
                             </li>
                             <li className={styles.linkHoverEffect}>
-                                <Link href="#the-team">OUR TEAM</Link>
+                                <Link href="/#the-team">OUR TEAM</Link>
                             </li>
                             <li className={styles.linkHoverEffect}>
                                 <Link href="/mint">MINT</Link>
