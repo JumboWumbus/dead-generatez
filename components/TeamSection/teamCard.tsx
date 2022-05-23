@@ -31,12 +31,12 @@ export const TeamCard = ({ children, name, title, twitter, twitterUrl, linkedin,
                 <div className={styles.socials}>
                     <div className={styles.theSocial}>
                         <TwitterIcon bodyColor={"#ffffff"} eyeColor={"#000000"} width={"20px"}/>
-                        <a href={twitterUrl} target="_blank" className={styles.socialText}>{twitter}</a>
+                        <a href={twitterUrl} target="_blank" rel="noopener noreferrer" className={styles.socialText}>{twitter}</a>
                     </div>
 
                     <div className={styles.theSocial}>
                         <LinkedInLogo rectColor={"#ffffff"} fontColor={"#000000"} width={"18px"}/>
-                        <a href={linkedinUrl} target="_blank" className={styles.socialText}>{linkedin}</a>
+                        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className={styles.socialText}>{linkedin}</a>
                     </div>
                 </div>
             </div>

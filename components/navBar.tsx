@@ -87,7 +87,7 @@ export default function NavBar() {
 
                     <div className={styles.socialIcons}>
                         <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
-                            <a href="https://discord.gg/dgnz" target="_blank" >
+                            <a href="https://discord.gg/dgnz" target="_blank" rel="noopener noreferrer">
                             <DiscordLogo
                                 skullColor={"#ffffff"}
                                 eyeColor={"#000000"}
@@ -98,7 +98,7 @@ export default function NavBar() {
                         </div>
 
                         <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
-                        <a href="https://twitter.com/DeadGeneratez" target="_blank" >
+                        <a href="https://twitter.com/DeadGeneratez" target="_blank" rel="noopener noreferrer">
                             <TwitterIcon
                                 bodyColor={"#ffffff"}
                                 eyeColor={"#000000"}
