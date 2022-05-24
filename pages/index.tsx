@@ -19,11 +19,29 @@ const Home: NextPage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#000000" />
 
-                <title>DeadGeneratez</title>
-                <meta name="description" content="6 Feet underground" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+
+      
+<title>Deadgeneratez</title>
+<meta name="title" content="Deadgeneratez"/>
+<meta name="description" content="6 feet under the metaverse"/>
+
+
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://deadgeneratez.io/"/>
+<meta property="og:title" content="Deadgeneratez"/>
+<meta property="og:description" content="6 feet under the metaverse"/>
+<meta property="og:image" content="https://deadgeneratez.io/images/metaImage.png"/>
+
+
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:url" content="https://deadgeneratez.io/"/>
+<meta property="twitter:title" content="Deadgeneratez"/>
+<meta property="twitter:description" content="6 feet under the metaverse"/>
+<meta property="twitter:image" content="https://deadgeneratez.io/images/metaImage.png"/>
+
             </Head>
 
             <NavBar />
