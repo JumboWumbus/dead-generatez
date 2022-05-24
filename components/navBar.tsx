@@ -114,7 +114,7 @@ export default function NavBar() {
 
                     <div className={styles.socialIcons}>
                         <div className={`${styles.theIcon} ${styles.iconHoverEffect}`}>
-                            <a href="https://discord.gg/dgnz" target="_blank" rel="noopener noreferrer">
+                            <a href="" target="_blank" rel="noopener noreferrer">
                             <DiscordLogo
                                 skullColor={"#ffffff"}
                                 eyeColor={"#000000"}
