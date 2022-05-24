@@ -23,24 +23,24 @@ const Home: NextPage = () => {
                 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
 
-      
-<title>Deadgeneratez</title>
-<meta name="title" content="Deadgeneratez"/>
-<meta name="description" content="6 feet under the metaverse"/>
+                
+                <title>Deadgeneratez</title>
+                <meta name="title" content="Deadgeneratez"/>
+                <meta name="description" content="6 feet under the metaverse"/>
 
 
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://deadgeneratez.io/"/>
-<meta property="og:title" content="Deadgeneratez"/>
-<meta property="og:description" content="6 feet under the metaverse"/>
-<meta property="og:image" content="https://deadgeneratez.io/images/metaImage.png"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://deadgeneratez.io/"/>
+                <meta property="og:title" content="Deadgeneratez"/>
+                <meta property="og:description" content="6 feet under the metaverse"/>
+                <meta property="og:image" content="https://deadgeneratez.io/images/metaImage.png"/>
+                
 
-
-<meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:url" content="https://deadgeneratez.io/"/>
-<meta property="twitter:title" content="Deadgeneratez"/>
-<meta property="twitter:description" content="6 feet under the metaverse"/>
-<meta property="twitter:image" content="https://deadgeneratez.io/images/metaImage.png"/>
+                <meta property="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:url" content="https://deadgeneratez.io/"/>
+                <meta property="twitter:title" content="Deadgeneratez"/>
+                <meta property="twitter:description" content="6 feet under the metaverse"/>
+                <meta property="twitter:image" content="https://deadgeneratez.io/images/metaImage.png"/>
 
             </Head>
 
